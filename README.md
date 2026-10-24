@@ -1,18 +1,11 @@
-# Onurravli Tap
+# onurravli/tap
 
-## How do I install these formulae?
+Homebrew formulae for [Voltran](https://github.com/onurravli/voltran), a local control room for running
+many coding agents and terminals at once.
 
-`brew install onurravli/tap/<formula>`
-
-Or `brew tap onurravli/tap` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "onurravli/tap"
-brew "<formula>"
+```bash
+brew install onurravli/tap/voltran
+voltran up
 ```
 
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+To start Voltran whenever you log in, run `voltran autostart on`.
