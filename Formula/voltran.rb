@@ -1,8 +1,8 @@
 class Voltran < Formula
   desc "Local control room for running many coding agents and terminals at once"
   homepage "https://github.com/onurravli/voltran"
-  url "https://registry.npmjs.org/voltran/-/voltran-1.0.1.tgz"
-  sha256 "67746573ec5aa09b5d8e04e9549c0dea8f34c882114cb5a0a82c99d91288e86f"
+  url "https://registry.npmjs.org/voltran/-/voltran-1.1.0.tgz"
+  sha256 "4a53b22d2f25fc43cff0ae7b5ac36de1e1ee89115522b7d6a0a8081b2b00bfe1"
   license "Apache-2.0"
 
   depends_on "node"
